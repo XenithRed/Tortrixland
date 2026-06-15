@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TORTRIXLAND - Tienda oficial de rangos premium para Minecraft. Obtén los mejores beneficios y kits exclusivos.">
+    <meta name="theme-color" content="#00ff88">
+    <title>TORTRIXLAND - Premium Minecraft Store</title>
+    <link rel="icon" href="0d835c75-0212-4cc7-8efc-b11267838c74 (1) (1).jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+                <div class="hamster__body">
+                    <div class="hamster__head">
+                        <div class="hamster__ear"></div>
+                        <div class="hamster__eye"></div>
+                        <div class="hamster__nose"></div>
+                    </div>
+                    <div class="hamster__limb hamster__limb--fr"></div>
+                    <div class="hamster__limb hamster__limb--fl"></div>
+                    <div class="hamster__limb hamster__limb--br"></div>
+                    <div class="hamster__limb hamster__limb--bl"></div>
+                    <div class="hamster__tail"></div>
+                </div>
+            </div>
+            <div class="spoke"></div>
+        </div>
+        <div class="loading-text">Cargando...</div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">TORTRIXLAND</a>
+        <div class="navbar-links">
+            <a href="#productos">Productos</a>
+            <a href="#llaves">Llaves</a>
+            <a href="#pagos">Pagos</a>
+        </div>
+        <div class="navbar-cta">
+            <a href="https://wa.me/50248103741" target="_blank" class="btn btn-primary">Contactar</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <canvas id="pixel-canvas"></canvas>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                TIENDA OFICIAL · Minecraft Server
+            </div>
+
+            <h1 class="hero-title">
+                <span class="highlight-word">Rangos</span> <span class="highlight-word"
+                    style="animation-delay: 0.3s">Premium</span>
+                <span class="subtitle-line">By YomboxGG</span>
+            </h1>
+
+            <p class="hero-description">
+                Obtén kits exclusivos, manzanas doradas, cohetes y mucho más.
+                Mejora tu experiencia de juego con los mejores beneficios.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#productos" class="btn btn-primary btn-large">Ver Productos</a>
+                <a href="#pagos" class="btn btn-outline btn-large">Métodos de Pago</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="productos">
+        <div class="section-header">
+            <p class="section-label">Catálogo</p>
+            <h2 class="section-title">Nuestros Rangos</h2>
+        </div>
+
+        <div class="products-grid">
+
+            <!-- Card 1 -->
+            <article class="card" data-delay="0">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-hero.png" alt="Rango Hero" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango Hero</h3>
+                <div class="card-subtitle">
+                    <em>Cada 2 días:</em><br>
+                    • 1 Kit zombie<br>
+                    • 64 manzanas doradas (x2)<br>
+                    • 64 cohetes (x7)<br>
+                    • 64 telas / 1 tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>2.61</div>
+                    <a href="https://wa.me/p/25502320942713276/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card" data-delay="1">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-gg.png" alt="Rango GG" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango GG</h3>
+                <div class="card-subtitle">
+                    <em>Cada 3 días:</em><br>
+                    • 1 Kit Zombie<br>
+                    • 64 manzanas doradas (x2)<br>
+                    • 2 nochts!<br>
+                    • 64 cohetes (x4)<br>
+                    • 1 totem / Telas / Tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>3.92</div>
+                    <a href="https://wa.me/p/25208562782158072/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card" data-delay="2">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-vip.png" alt="Rango VIP" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango VIP</h3>
+                <div class="card-subtitle">
+                    <em>Cada 5 días:</em><br>
+                    • 1 Kit Esqueleto / 1 Ghast<br>
+                    • 64 manzanas doradas (x3)<br>
+                    • 2 nochts<br>
+                    • 64 cohetes (x4)<br>
+                    • 64 telas / 1 tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>6.53</div>
+                    <a href="https://wa.me/p/25307705218882966/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card" data-delay="3">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-tortix.png" alt="Rango Tortix" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango Tortrix</h3>
+                <div class="card-subtitle">
+                    <em>Cada 5 días:</em><br>
+                    • 1 Kit Esqueleto / 1 Zombie<br>
+                    • 64 manzanas doradas (x2)<br>
+                    • 1 nocht / 64 cohetes (x4)<br>
+                    • 1 totem / telas / tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>6.53</div>
+                    <a href="https://wa.me/p/24801539352875366/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="card" data-delay="4">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-vip-plus.png" alt="Rango VIP+" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango VIP+</h3>
+                <div class="card-subtitle">
+                    <em>Cada 6 días:</em><br>
+                    • 1 Kit Blaze / 1 Magma<br>
+                    • 64 manzanas doradas (x3)<br>
+                    • 2 nochts / 64 cohetes (x4)<br>
+                    • 64 telas / 1 tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>9.14</div>
+                    <a href="https://wa.me/p/24809395858763447/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="card" data-delay="5">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-tortix-plus.png" alt="Rango Tortix+" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango Tortrix+</h3>
+                <div class="card-subtitle">
+                    <em>Cada 6 días:</em><br>
+                    • 1 Kit DRAGON<br>
+                    • 64 manzanas doradas (x4)<br>
+                    • 4 nochts / 64 cohetes (x4)<br>
+                    • 2 totems / telas / tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>13.06</div>
+                    <a href="https://wa.me/p/24766406086371087/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="card" data-delay="6">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/rango-granjero.png" alt="Rango Granjero" loading="lazy">
+                </div>
+                <h3 class="card-title">Rango Granjero</h3>
+                <div class="card-subtitle">
+                    <em>Cada 8 días:</em><br>
+                    • 1 Kit granjero / 1 Blaze<br>
+                    • 2 nochts<br>
+                    • 64 manzanas doradas (x2)<br>
+                    • 64 cohetes (x10)<br>
+                    • 2 totems / telas / tijera
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>15.67</div>
+                    <a href="https://wa.me/p/25040059682353171/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path
+                                d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path
+                                d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Keys Section -->
+    <section class="section" id="llaves">
+        <div class="section-header">
+            <p class="section-label">Especiales</p>
+            <h2 class="section-title">Llaves</h2>
+        </div>
+
+        <div class="products-grid">
+            <!-- Llave Comun -->
+            <article class="card" data-delay="0">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/a5eaa6b1-8b71-4b76-b096-882690674a21.jpg" alt="Llave Comun" loading="lazy">
+                </div>
+                <h3 class="card-title">Llave Comun</h3>
+                <div class="card-subtitle">
+                    <em>Podrás reclamar esto:</em><br>
+                    • 20 llaves comun
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>1.31</div>
+                    <a href="https://wa.me/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Llave OP -->
+            <article class="card" data-delay="1">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/aec4f73c-b953-4d2f-b100-f58f00a8454c.jpg" alt="Llave OP" loading="lazy">
+                </div>
+                <h3 class="card-title">Llave OP</h3>
+                <div class="card-subtitle">
+                    <em>Podrás reclamar esto:</em><br>
+                    • 5 llaves op
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>1.31</div>
+                    <a href="https://wa.me/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Llave Legendaria -->
+            <article class="card" data-delay="2">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/7e2a8ea0-566b-47cd-81ba-ee0bd4442907.jpg" alt="Llave Legendaria" loading="lazy">
+                </div>
+                <h3 class="card-title">Llave Legendaria</h3>
+                <div class="card-subtitle">
+                    <em>Podrás reclamar esto:</em><br>
+                    • 3 llaves legendaria
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>1.31</div>
+                    <a href="https://wa.me/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Llave Kits -->
+            <article class="card" data-delay="3">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/2d3247ee-f7f1-4f63-b647-bb2edb39410d.jpg" alt="Llave Kits" loading="lazy">
+                </div>
+                <h3 class="card-title">Llave Kits</h3>
+                <div class="card-subtitle">
+                    <em>Podrás reclamar esto:</em><br>
+                    • 3 llaves kits
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>1.31</div>
+                    <a href="https://wa.me/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Llave Tortrix -->
+            <article class="card" data-delay="4">
+                <div class="card-img">
+                    <img src="https://pub-4228373e21b247deae05b2fb3bbe6ebc.r2.dev/WhatsApp%20Image%202026-06-14%20at%205.09.09%20PM.jpeg" alt="Llave Tortrix" loading="lazy">
+                </div>
+                <h3 class="card-title">Llave Tortrix</h3>
+                <div class="card-subtitle">
+                    <em>Podrás reclamar esto:</em><br>
+                    • 1 llave tortrix
+                </div>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span>3.94</div>
+                    <a href="https://wa.me/50248103741" target="_blank" class="card-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z" />
+                            <path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z" />
+                            <path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z" />
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section class="section payment-section" id="pagos">
+        <div class="section-header">
+            <p class="section-label">Transacciones</p>
+            <h2 class="section-title">Métodos de Pago</h2>
+        </div>
+
+        <div class="payment-grid">
+            <!-- Diamantes FreeFire -->
+            <div class="payment-card" data-delay="0">
+                <span class="payment-icon">
+                    <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <polygon style="fill:#98C8ED;"
+                            points="0,184.889 128,14.225 384,14.222 512,184.889 256,497.778" />
+                        <polygon style="fill:#7AB9E8;" points="384,14.222 256,14.225 256,497.778 512,184.889" />
+                        <polygon style="fill:#7AB9E8;" points="357.335,14.222 154.667,14.225 256,149.333" />
+                        <polygon style="fill:#7AB9E8;" points="234.667,471.703 234.667,206.222 17.454,206.222" />
+                        <polygon style="fill:#7AB9E8;" points="277.333,206.222 277.333,471.703 494.547,206.222" />
+                        <polygon style="fill:#7AB9E8;" points="16,163.556 213.332,163.556 114.667,32.003" />
+                        <polygon style="fill:#7AB9E8;" points="298.667,163.556 496,163.556 397.335,32.003" />
+                        <polygon style="fill:#579ADF;" points="256,14.225 256,149.333 357.335,14.222" />
+                        <polygon style="fill:#579ADF;" points="277.333,471.703 494.547,206.222 277.333,206.222" />
+                        <polygon style="fill:#579ADF;" points="496,163.556 397.335,32.003 298.667,163.556" />
+                    </svg>
+                </span>
+                <div class="payment-info">
+                    <h4>Diamantes FreeFire</h4>
+                    <p>Recarga de diamantes</p>
+                </div>
+            </div>
+
+            <!-- Google Play -->
+            <div class="payment-card" data-delay="1">
+                <span class="payment-icon">
+                    <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path style="fill:#59A6CA;"
+                            d="M225.656,256.052L14.016,485.451l-6.442,7.052c-4.005-5.919-6.704-12.972-7.313-20.806 C0.087,470.305,0,468.91,0,467.518V44.499c0-9.488,2.873-18.02,7.574-24.987L225.656,256.052z" />
+                        <path style="fill:#B6D9A2;"
+                            d="M320.811,152.8l-95.155,103.253L7.574,19.512C19.936,1.405,45.183-6.342,66.6,6.02L320.811,152.8z" />
+                        <path style="fill:#F0CE89;"
+                            d="M455.056,257.27c-0.348,14.453-7.748,28.904-22.113,37.174l-112.132,64.771l-95.155-103.163 L320.811,152.8l70.518,40.745l41.614,24.026C448.178,226.366,455.579,241.861,455.056,257.27z" />
+                        <path style="fill:#B6547C;"
+                            d="M7.591,492.492c12.368,18.116,37.599,25.838,58.976,13.496L320.775,359.22l-95.156-103.209 L7.591,492.492z" />
+                    </svg>
+                </span>
+                <div class="payment-info">
+                    <h4>Google Play</h4>
+                    <p>Tarjetas de regalo</p>
+                </div>
+            </div>
+
+            <!-- PayPal -->
+            <div class="payment-card" data-delay="2">
+                <span class="payment-icon">
+                    <svg viewBox="0 0 24 24" fill="#003087" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.067 6.378c-.492-2.36-2.064-3.728-4.83-3.728H7.332a.5.5 0 0 0-.492.41L4.028 20.73a.5.5 0 0 0 .492.578h3.332c.245 0 .456-.176.494-.418l.844-5.352c.038-.242.25-.418.494-.418h1.868c3.55 0 5.76-1.742 6.51-5.232.29-1.34.25-2.49-.504-3.51zM15.4 10.1c-.41 1.91-1.84 1.91-3.39 1.91h-1.38l.63-4h1.38c1.55 0 3.17 0 2.76 2.09z" fill="#003087"/>
+                        <path d="M17.467 6.378c-.492-2.36-2.064-3.728-4.83-3.728H4.732a.5.5 0 0 0-.492.41L1.428 20.73a.5.5 0 0 0 .492.578h3.332c.245 0 .456-.176.494-.418l.844-5.352c.038-.242.25-.418.494-.418h1.868c3.55 0 5.76-1.742 6.51-5.232.29-1.34.25-2.49-.504-3.51zM12.8 10.1c-.41 1.91-1.84 1.91-3.39 1.91H8.03l.63-4h1.38c1.55 0 3.17 0 2.76 2.09z" fill="#009CDE"/>
+                    </svg>
+                </span>
+                <div class="payment-info">
+                    <h4>PayPal</h4>
+                    <p>Pagos seguros</p>
+                </div>
+            </div>
+
+            <!-- Otras formas -->
+            <a href="https://discord.gg/XsayGH6Sb" target="_blank" class="payment-card" data-delay="3" style="text-decoration: none; color: inherit;">
+                <span class="payment-icon">
+                    <svg viewBox="0 0 24 24" fill="#5865F2" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037 12.016 12.016 0 0 0-.62 1.258 18.307 18.307 0 0 0-4.73 0c-.23-.464-.465-.89-.62-1.258a.074.074 0 0 0-.079-.037A19.57 19.57 0 0 0 4.37 4.37a.06.06 0 0 0-.032.027C.533 10.375.462 16.326.68 21.996a.06.06 0 0 0 .041.053 19.758 19.758 0 0 0 6.002 2.973.064.064 0 0 0 .076-.025 14.124 14.124 0 0 0 1.226-1.995.064.064 0 0 0-.036-.089 13.066 13.066 0 0 1-1.896-.897.061.061 0 0 1-.005-.102c.123-.09.24-.183.354-.277a.06.06 0 0 1 .063-.01c3.96 1.79 8.24 1.79 12.16 0a.06.06 0 0 1 .063.01c.114.094.23.187.354.277a.06.06 0 0 1-.005.102 12.968 12.968 0 0 1-1.896.897.064.064 0 0 0-.036.089 13.79 13.79 0 0 0 1.226 1.995.064.064 0 0 0 .076.025 19.825 19.825 0 0 0 5.923-2.915.06.06 0 0 0 .041-.053c.64-6.072-.1-11.667-3.692-17.653a.06.06 0 0 0-.032-.027ZM8.5 14.99c-1.127 0-2.035-1.035-2.035-2.296s.891-2.296 2.035-2.296c1.157 0 2.052 1.047 2.035 2.296 0 1.26-.891 2.296-2.035 2.296Zm7 0c-1.127 0-2.035-1.035-2.035-2.296s.891-2.296 2.035-2.296c1.157 0 2.052 1.047 2.035 2.296 0 1.26-.891 2.296-2.035 2.296Z"/>
+                    </svg>
+                </span>
+                <div class="payment-info">
+                    <h4>Otras formas</h4>
+                    <p>Discord Support</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">TORTRIXLAND</div>
+        <p class="footer-text">© 2025 by <a href="#">YomboxGG</a> · Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
